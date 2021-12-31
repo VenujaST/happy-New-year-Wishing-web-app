@@ -1,9 +1,9 @@
 <?php
 
     $dbhost = 'localhost';
-    $dbuser = 'YOUR DB USER';
-    $dbpass = 'YOUR DB PASS';
-    $dbname = 'YOUR DB NAME';
+    $dbuser = 'root';
+    $dbpass = '';
+    $dbname = 'newyeardb';
 
     $con=mysqli_connect($dbhost, $dbuser, $dbpass,$dbname) //connect to the database server
     or die ("Could not connect to mysql because ".mysqli_error());
